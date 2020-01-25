@@ -19,8 +19,8 @@ do {
 
 // Read from the sensor
 do {
-	let acceleration = try smsLib.read()
-	print(acceleration)
+    let acceleration = try smsLib.read()
+    print(acceleration)
 } catch {
     print("Failed to read from sensor: \(error)")
     return
