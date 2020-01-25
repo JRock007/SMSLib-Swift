@@ -10,12 +10,12 @@
 		3376763223DCA1B100E6C88F /* smslib.m in Sources */ = {isa = PBXBuildFile; fileRef = 3376762C23DCA1B100E6C88F /* smslib.m */; };
 		3376763323DCA1B100E6C88F /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3376762D23DCA1B100E6C88F /* License.txt */; };
 		3376763423DCA1B100E6C88F /* Credits.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3376763023DCA1B100E6C88F /* Credits.txt */; };
-		3376763923DCA1E000E6C88F /* SMSLibInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3376763723DCA1E000E6C88F /* SMSLibInterface.swift */; };
-		3376763C23DCA3E100E6C88F /* SMSVector4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3376763B23DCA3E100E6C88F /* SMSVector4.swift */; };
-		33B62C0523DCA0980031BFB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B62C0423DCA0980031BFB6 /* AppDelegate.swift */; };
-		33B62C0723DCA0980031BFB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B62C0623DCA0980031BFB6 /* ViewController.swift */; };
-		33B62C0923DCA09C0031BFB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B62C0823DCA09C0031BFB6 /* Assets.xcassets */; };
-		33B62C0C23DCA09C0031BFB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B62C0A23DCA09C0031BFB6 /* Main.storyboard */; };
+		3376764523DCA9E500E6C88F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3376763E23DCA9E500E6C88F /* ViewController.swift */; };
+		3376764623DCA9E500E6C88F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3376763F23DCA9E500E6C88F /* Assets.xcassets */; };
+		3376764723DCA9E500E6C88F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3376764023DCA9E500E6C88F /* Main.storyboard */; };
+		3376764823DCA9E500E6C88F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3376764223DCA9E500E6C88F /* AppDelegate.swift */; };
+		3376764D23DCAA6100E6C88F /* SMSLibInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3376764B23DCAA6000E6C88F /* SMSLibInterface.swift */; };
+		3376764E23DCAA6100E6C88F /* SMSVector4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3376764C23DCAA6000E6C88F /* SMSVector4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,15 +25,15 @@
 		3376762F23DCA1B100E6C88F /* smslib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smslib.h; sourceTree = "<group>"; };
 		3376763023DCA1B100E6C88F /* Credits.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Credits.txt; sourceTree = "<group>"; };
 		3376763123DCA1B100E6C88F /* smslib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smslib_Prefix.pch; sourceTree = "<group>"; };
-		3376763723DCA1E000E6C88F /* SMSLibInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SMSLibInterface.swift; path = "SMSLib-Swift/SMSLibInterface.swift"; sourceTree = SOURCE_ROOT; };
-		3376763B23DCA3E100E6C88F /* SMSVector4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SMSVector4.swift; path = "SMSLib-Swift/SMSVector4.swift"; sourceTree = SOURCE_ROOT; };
-		33B62C0123DCA0980031BFB6 /* SMSLib-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SMSLib-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		33B62C0423DCA0980031BFB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		33B62C0623DCA0980031BFB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		33B62C0823DCA09C0031BFB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		33B62C0B23DCA09C0031BFB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		33B62C0D23DCA09C0031BFB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33B62C0E23DCA09C0031BFB6 /* SMSLib_Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SMSLib_Swift.entitlements; sourceTree = "<group>"; };
+		3376763E23DCA9E500E6C88F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3376763F23DCA9E500E6C88F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3376764123DCA9E500E6C88F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3376764223DCA9E500E6C88F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3376764323DCA9E500E6C88F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3376764A23DCAA1E00E6C88F /* SMSLib_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SMSLib_Example.entitlements; sourceTree = "<group>"; };
+		3376764B23DCAA6000E6C88F /* SMSLibInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMSLibInterface.swift; sourceTree = "<group>"; };
+		3376764C23DCAA6000E6C88F /* SMSVector4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMSVector4.swift; sourceTree = "<group>"; };
+		33B62C0123DCA0980031BFB6 /* SMSLib-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SMSLib-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,19 +62,32 @@
 		3376763523DCA1C500E6C88F /* SMSLib */ = {
 			isa = PBXGroup;
 			children = (
-				3376762A23DCA1B100E6C88F /* Thirdparty */,
 				3376762E23DCA1B100E6C88F /* SMSLib-Bridging-Header.h */,
-				3376763B23DCA3E100E6C88F /* SMSVector4.swift */,
-				3376763723DCA1E000E6C88F /* SMSLibInterface.swift */,
+				3376764B23DCAA6000E6C88F /* SMSLibInterface.swift */,
+				3376764C23DCAA6000E6C88F /* SMSVector4.swift */,
+				3376762A23DCA1B100E6C88F /* Thirdparty */,
 			);
 			path = SMSLib;
+			sourceTree = "<group>";
+		};
+		3376763D23DCA9E500E6C88F /* SMSLib-Example */ = {
+			isa = PBXGroup;
+			children = (
+				3376764223DCA9E500E6C88F /* AppDelegate.swift */,
+				3376763E23DCA9E500E6C88F /* ViewController.swift */,
+				3376763F23DCA9E500E6C88F /* Assets.xcassets */,
+				3376764023DCA9E500E6C88F /* Main.storyboard */,
+				3376764323DCA9E500E6C88F /* Info.plist */,
+				3376764A23DCAA1E00E6C88F /* SMSLib_Example.entitlements */,
+			);
+			path = "SMSLib-Example";
 			sourceTree = "<group>";
 		};
 		33B62BF823DCA0980031BFB6 = {
 			isa = PBXGroup;
 			children = (
 				3376763523DCA1C500E6C88F /* SMSLib */,
-				33B62C0323DCA0980031BFB6 /* SMSLib-Swift */,
+				3376763D23DCA9E500E6C88F /* SMSLib-Example */,
 				33B62C0223DCA0980031BFB6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,30 +95,17 @@
 		33B62C0223DCA0980031BFB6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				33B62C0123DCA0980031BFB6 /* SMSLib-Swift.app */,
+				33B62C0123DCA0980031BFB6 /* SMSLib-Example.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		33B62C0323DCA0980031BFB6 /* SMSLib-Swift */ = {
-			isa = PBXGroup;
-			children = (
-				33B62C0423DCA0980031BFB6 /* AppDelegate.swift */,
-				33B62C0623DCA0980031BFB6 /* ViewController.swift */,
-				33B62C0823DCA09C0031BFB6 /* Assets.xcassets */,
-				33B62C0A23DCA09C0031BFB6 /* Main.storyboard */,
-				33B62C0D23DCA09C0031BFB6 /* Info.plist */,
-				33B62C0E23DCA09C0031BFB6 /* SMSLib_Swift.entitlements */,
-			);
-			path = "SMSLib-Swift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		33B62C0023DCA0980031BFB6 /* SMSLib-Swift */ = {
+		33B62C0023DCA0980031BFB6 /* SMSLib-Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33B62C1123DCA09C0031BFB6 /* Build configuration list for PBXNativeTarget "SMSLib-Swift" */;
+			buildConfigurationList = 33B62C1123DCA09C0031BFB6 /* Build configuration list for PBXNativeTarget "SMSLib-Example" */;
 			buildPhases = (
 				33B62BFD23DCA0980031BFB6 /* Sources */,
 				33B62BFE23DCA0980031BFB6 /* Frameworks */,
@@ -116,9 +116,9 @@
 			);
 			dependencies = (
 			);
-			name = "SMSLib-Swift";
+			name = "SMSLib-Example";
 			productName = "SMSLib-Swift";
-			productReference = 33B62C0123DCA0980031BFB6 /* SMSLib-Swift.app */;
+			productReference = 33B62C0123DCA0980031BFB6 /* SMSLib-Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +136,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 33B62BFC23DCA0980031BFB6 /* Build configuration list for PBXProject "SMSLib-Swift" */;
+			buildConfigurationList = 33B62BFC23DCA0980031BFB6 /* Build configuration list for PBXProject "SMSLib-Example" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -149,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				33B62C0023DCA0980031BFB6 /* SMSLib-Swift */,
+				33B62C0023DCA0980031BFB6 /* SMSLib-Example */,
 			);
 		};
 /* End PBXProject section */
@@ -159,10 +159,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33B62C0923DCA09C0031BFB6 /* Assets.xcassets in Resources */,
 				3376763323DCA1B100E6C88F /* License.txt in Resources */,
-				33B62C0C23DCA09C0031BFB6 /* Main.storyboard in Resources */,
+				3376764623DCA9E500E6C88F /* Assets.xcassets in Resources */,
 				3376763423DCA1B100E6C88F /* Credits.txt in Resources */,
+				3376764723DCA9E500E6C88F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,21 +193,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3376763C23DCA3E100E6C88F /* SMSVector4.swift in Sources */,
-				33B62C0723DCA0980031BFB6 /* ViewController.swift in Sources */,
-				33B62C0523DCA0980031BFB6 /* AppDelegate.swift in Sources */,
+				3376764E23DCAA6100E6C88F /* SMSVector4.swift in Sources */,
 				3376763223DCA1B100E6C88F /* smslib.m in Sources */,
-				3376763923DCA1E000E6C88F /* SMSLibInterface.swift in Sources */,
+				3376764523DCA9E500E6C88F /* ViewController.swift in Sources */,
+				3376764823DCA9E500E6C88F /* AppDelegate.swift in Sources */,
+				3376764D23DCAA6100E6C88F /* SMSLibInterface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		33B62C0A23DCA09C0031BFB6 /* Main.storyboard */ = {
+		3376764023DCA9E500E6C88F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				33B62C0B23DCA09C0031BFB6 /* Base */,
+				3376764123DCA9E500E6C88F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -332,11 +332,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SMSLib-Example/SMSLib_Example.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9J75238463;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "SMSLib-Swift/Info.plist";
+				INFOPLIST_FILE = "SMSLib-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -352,11 +353,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SMSLib-Example/SMSLib_Example.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9J75238463;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "SMSLib-Swift/Info.plist";
+				INFOPLIST_FILE = "SMSLib-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -371,7 +373,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		33B62BFC23DCA0980031BFB6 /* Build configuration list for PBXProject "SMSLib-Swift" */ = {
+		33B62BFC23DCA0980031BFB6 /* Build configuration list for PBXProject "SMSLib-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33B62C0F23DCA09C0031BFB6 /* Debug */,
@@ -380,7 +382,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33B62C1123DCA09C0031BFB6 /* Build configuration list for PBXNativeTarget "SMSLib-Swift" */ = {
+		33B62C1123DCA09C0031BFB6 /* Build configuration list for PBXNativeTarget "SMSLib-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33B62C1223DCA09C0031BFB6 /* Debug */,
